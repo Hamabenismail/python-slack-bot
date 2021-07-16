@@ -6,4 +6,4 @@ RUN pip install slackclient
 RUN pip install python-dotenv
 RUN pip install schedule
 
-CMD [ "python", "./lambda_function.py" ]
+CMD [ "python -m", "lambda_function.py" ]
